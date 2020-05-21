@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="TCP-Proxy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TCP_Proxy_jar</output-path>
+    <root id="root">
+      <element id="archive" name="TCP-Proxy.jar">
+        <element id="module-output" name="TCP-Proxy" />
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/META-INF" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.2" />
+    </root>
+  </artifact>
+</component>
